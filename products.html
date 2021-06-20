@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="allCss.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Munegos Techs</title>
+  <style>
+    .sticky{
+      position: fixed;
+      top: 0;
+      background-color: white;
+    }
+    
+    ul.topnav li {float: left;}
+
+  </style>
+</head>
+<body>
+  <!-- Top top information -->
+  <div class="w-full h-6 2xl:px-48" style="background-color: teal;">
+    <div class="w-full h-6 lg:px-32 px-2 flex">
+      <p class="text-white text-sm w-full">Phone: +263 771 128 679 &nbsp; &nbsp; &nbsp; Email: help@munegos.com</p>
+      <p class="text-white text-sm w-full" style="text-align: end;">English</p>
+    </div>
+  </div>
+
+  <!-- Top Navigation bar -->
+  <div class="w-full h-16 2xl:px-48 shadow-xl border-b border-gray-400" id="myHeader">
+    <div class="h-full px-2 lg:px-32 flex">
+      <!-- Wattle logo -->
+      <a href="index.html" class="w-24"><img class="h-full" src="imgs/logo.png" alt="logo"></a>
+      <div class="px- w-full">
+        <p class="text-lg xl:text-2xl font-semibold" style="color: orange;">Munegos Techs</p>
+        <p class="text-sm font-semibold" style="color: teal;" >Bringing technology to the technologists.</p>
+      </div>
+      <div class="w-full">
+        <ul class="topnav list-none float-right text-sm xl:text-xl py-4 font-semibold text-gray-800">
+          <li class="pr-2 xl:pr-3 hover:text-orange-600"><a href="index.html">Home</a></li>
+          <li class="pr-2 xl:pr-3 hover:text-orange-600"><a class="text-teal-600" href="products.html">Products</a></li>
+          <li class="pr-2 xl:pr-3 hover:text-orange-600"><a href="aboutUs.html">About us</a></li>
+          <li class=" hover:text-orange-600"><a href="contactUs.html">Contact us</a></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+
+  <!-- Background image -->
+  <!--
+  <div class="w-full bg-green-700" >
+    <div class="bg-cover bg-center" style="background-image: url(imgs/timber.jpg)">
+      <div style="height: 820px;">
+        <div class="w-full 2xl:px-48 py-12">
+          <div class="w-full px-2 lg:px-32 flex pt-64">
+            <div style="background: rgba(0, 0, 0, 0.5);" class="py-4 px-12 border-t-4 border-b-4 border-green-800">
+              <h2 class="text-lg xl:text-4xl font-semibold text-white">Welcome,</h2>
+              <h3 class="text-sm xl:text-2xl font-semibold text-white" >Growing today for better tommorrow</h3>
+              <button class="text-sm xl:text-xl font-semibold px-8 py-2 rounded-md mt-4 bg-white">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <!-- Banner -->
+  <div class="w-full" style="background-color: teal;">
+    <h2 class="text-2xl font-semibold text-white py-4" style="text-align: center;">Products</h2>
+  </div>
+
+  <!-- Products Section -->
+  <div class="w-full 2xl:px-48 py-2">
+    <div class="w-full px-2 lg:px-32 pt-4">
+      <h2 id="productsHeading" class="text-lg xl:text-2xl font-semibold text-gray-800 mb-4"> Smart Phones </h2>
+
+      <p id="productsDescription">
+        Munegos Techs brings you high quality smart phones at very cheap and affordable prices. We offer you thousands of devices from many different companies all competing for you to buy in. For 
+        starters, basis like camera, Bluetooth, torch and memory card slots come standard with all our models from 
+        entry level to high end. When it comes to the top end of our range, think of any feature you would find on
+        devices - dual lens camera, fingerprint sensors, face sensors, infinity screens and more - we guarantee we
+        have it.
+      </p>
+
+      <!-- Products -->
+      <div class="w-full flex pt-8">
+
+        <!-- Product -->
+        <div class=" flex-1 rounded-md border-2 border-teal-600">
+          <div class="bg-cover bg-center w-full rounded-t-md" id="One" style="background-image: url(imgs/gadgets/phones/100101.png); height: 373px;"></div>
+          <div class="py-4 px-2">
+            <h2 id="pTitle1" class="text-sm xl:text-xl font-semibold"> Apple iphone 11 pro</h2>
+            <h2 id="pPrice1" class="text-sm xl:text-xl font-semibold text-red-600">Now at $899.00</h2>
+            <form action="item.html">
+              <input type="hidden" name="number" value="url(imgs/gadgets/phones/100101.png)" id="f1v">
+              <input type="submit" value="Learn more" class="text-sm xl:text-xl px-8 py-2 rounded-md border-2 border-orange-600 mt-6 flex ml-auto">
+            </form>
+          </div>
+        </div>
+  
+        <!-- Product -->
+        <div class=" flex-1 rounded-md border-2 border-teal-600 mx-4 xl:mx-12">
+          <div class="bg-cover bg-center w-full rounded-t-md" id="Two" style="background-image: url(imgs/gadgets/phones/100102.png); height: 373px;"></div>
+          <div class="py-4 px-2">
+            <h2 id="pTitle2" class="text-sm xl:text-xl font-semibold">Samsung J5 prime</h2>
+            <h2 id="pPrice2" class="text-sm xl:text-xl font-semibold text-red-600">Now at $78.00</h2>
+            <form action="item.html">
+              <input type="hidden" name="number" value="url(imgs/gadgets/phones/100102.png)" id="f2v">
+              <input type="submit" value="Learn more" class="text-sm xl:text-xl px-8 py-2 rounded-md border-2 border-orange-600 mt-6 flex ml-auto">
+            </form>
+          </div>
+        </div>
+  
+        <!-- Product -->
+        <div class=" flex-1 rounded-md border-2 border-teal-600">
+          <div class="bg-cover bg-center w-full rounded-t-md" id="Three" style="background-image: url(imgs/gadgets/phones/100103.png); height: 373px;"></div>
+          <div class="py-4 px-2">
+            <h2 id="pTitle3" class="text-sm xl:text-xl font-semibold">Samsung A20 </h2>
+            <h2 id="pPrice3" class="text-sm xl:text-xl font-semibold text-red-600">Now at $389.00</h2>
+            <form action="item.html">
+              <input type="hidden" name="number" value="url(imgs/gadgets/phones/100103.png)" id="f3v">
+              <input type="submit" value="Learn more" class="text-sm xl:text-xl px-8 py-2 rounded-md border-2 border-orange-600 mt-6 flex ml-auto">
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full h-6 2xl:px-48 my-8">
+    <div class="w-full h-6 lg:px-32 px-2 flex">
+      <p class="text-orange-600 text-sm w-1/2" onclick="prev()"> <a href="#"><u id="prevBtn" > << Previous </u></a> </p>
+      <p class="text-orange-600 text-sm w-1/2" onclick="next()" style="text-align: end;"> <a href="#"><u id="nextBtn"> Next >> </u></a> </p>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div class="w-full h-64 py-8" style="background-color: teal;">
+    <h2 class="text-2xl font-semibold text-white pb-16" style="text-align: center;">Bringing technology to the technologists.</h2>
+    <button class="text-xl text-white px-8 py-2 flex mr-auto ml-auto rounded-md" onclick="window.location.href='aboutUs.html';" style="background-color: orange;">Learn more</button>
+  </div>
+
+  <!-- Footer here -->
+  <div class="w-full 2xl:px-48 my-12">
+    <div class="w-full lg:px-32 px-2 flex">
+
+      <!-- About us -->
+     <div class=" flex-1">
+      <h2 class="text-md xl:text-lg text-gray-800 font-semibold" >About us </h2>
+      <p class="text-sm xl:text-md py-4 text-gray-700">Munegos Techs is a small private limited company which sells all
+        types of gadgets at very cheap and affordable prices. When it comes to cellphones, you have a lot to choose 
+        from. We offer you thousands of devices from many different companies all competing for you to buy in. For 
+        starters, basis like camera, Bluetooth, torch and memory card slots come standard with all our models from 
+        entry level to high end... <u><a href="aboutUs.html" class="text-blue-600"> Read more </a></u> 
+      </p>
+     </div>
+
+     <!-- Quick links -->
+     <div class="flex-1 mx-12">
+      <h2 class="text-md xl:text-lg text-gray-800 font-semibold" > Quick links </h2>
+      <ul class="font-semibold text-sm xl:text-md text-gray-700 py-4">
+        <li class="pb-3"> <a href="index.html" > Home </a></li>
+        <li class="pb-3"> <a href="products.html" style="color: teal;"> Products </a></li>
+        <li class="pb-3"> <a href="aboutUs.html"> About us </a></li>
+        <li class="pb-3"> <a href="contactUs.html"> Contact us </a></li>
+      </ul>
+    </div>
+
+    <!-- Conatct us -->
+    <div class="flex-1">
+      <h2 class="text-md xl:text-lg text-gray-800 font-semibold" > Contact us </h2>
+      <div class="py-4">
+        <!-- Phone details -->
+        <div class="pb-4 text-sm xl:text-md">
+          <h2 class="font-semibold" style="color: orange;"> Phone details: </h2>
+          <p class="text-gray-700">+263 771 128 679</p>
+        </div>
+        <!-- Email -->
+        <div class="pb-4 text-sm xl:text-md">
+          <h2 class="font-semibold" style="color: orange;"> Email: </h2>
+          <p class="text-gray-700">help@munegos.com</p>
+        </div>
+        <!-- Physical address -->
+        <div class="pb-4 text-sm xl:text-md">
+          <h2 class="font-semibold" style="color: orange;"> Physical Address: </h2>
+          <address class="text-gray-700">
+            Munegos Techs <br>
+            1919 Genesis Rd <br>
+            Ruvimbo phase 2 <br>
+            Chinhoyi, Zimbabwe <br>
+          </address>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Copyright section -->
+  <div class="w-full h-6 2xl:px-48" style="background-color: teal;">
+    <div class="w-full h-6 lg:px-32 px-2 flex">
+      <p class="text-white w-full " style="font-size: 12px;">Quality policy </p>
+      <p class="text-white text-sm" style="text-align: end; white-space: nowrap;font-size: 12px">Copyright &copy; 2020|All rights reserved.</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script>
+
+    var trk = 0;
+    var descZero = `Munegos Techs brings you high quality smart phones at very cheap and affordable prices. We offer you thousands of devices from many different companies all competing for you to buy in. For 
+      starters, basis like camera, Bluetooth, torch and memory card slots come standard with all our models from 
+      entry level to high end. When it comes to the top end of our range, think of any feature you would find on
+      devices - dual lens camera, fingerprint sensors, face sensors, infinity screens and more - we guarantee we
+      have it.`;
+
+    var descOne = `Munegos Techs brings you high quality Laptops at very cheap and affordable prices. We offer you thousands of devices from many different companies all competing for you to buy in. For 
+      starters, basis like camera, Bluetooth, torch and memory card slots come standard with all our models from 
+      entry level to high end. When it comes to the top end of our range, think of any feature you would find on
+      devices - dual lens camera, fingerprint sensors, face sensors, infinity screens and more - we guarantee we
+      have it.`;
+    
+    var descTwo = `Munegos Techs brings you high quality accesories at very cheap and affordable prices. We offer you thousands of devices from many different companies all competing for you to buy in. For 
+      starters, basis like camera, Bluetooth, torch and memory card slots come standard with all our models from 
+      entry level to high end. When it comes to the top end of our range, think of any feature you would find on
+      devices - dual lens camera, fingerprint sensors, face sensors, infinity screens and more - we guarantee we
+      have it.`;
+
+    document.getElementById("prevBtn").innerHTML = "";
+
+    function prev(){
+      trk--;
+
+      if(trk > 0){
+        document.getElementById("prevBtn").innerHTML = " << Previous ";
+      }else{
+        document.getElementById("prevBtn").innerHTML = "";
+      }
+
+      if(trk >= 2){
+        document.getElementById("nextBtn").innerHTML = "";
+      }else{
+        document.getElementById("nextBtn").innerHTML = " Next >> ";
+      }
+
+      switch(trk){
+        case 0:
+          pageZero();
+          break;
+        case 1:
+          pageOne();
+          break;
+        case 2:
+          pageTwo();
+          break;
+      }
+    }
+
+    function next(){
+      trk++;
+
+      if(trk > 0){
+        document.getElementById("prevBtn").innerHTML = " << Previous ";
+      }else{
+        document.getElementById("prevBtn").innerHTML = "";
+      }
+
+      if(trk >= 2){
+        document.getElementById("nextBtn").innerHTML = "";
+      }else{
+        document.getElementById("nextBtn").innerHTML = " Next >> ";
+      }
+
+      switch(trk){
+        case 0:
+          pageZero();
+          break;
+        case 1:
+          pageOne();
+          break;
+        case 2:
+          pageTwo();
+          break;
+      }
+    }
+
+    var pHeading = document.getElementById("productsHeading");
+    var pDesc = document.getElementById("productsDescription");
+    var one = document.querySelector('#One');
+
+    var two = document.querySelector('#Two');
+    var three = document.querySelector('#Three'); 
+
+    var price1 = document.getElementById("pPrice1");
+    var price2 = document.getElementById("pPrice2");
+    var price3 = document.getElementById("pPrice3");
+
+    var title1 = document.getElementById("pTitle1");
+    var title2 = document.getElementById("pTitle2");
+    var title3 = document.getElementById("pTitle3");
+
+    var f1 = document.getElementById("f1v");
+    var f2 = document.getElementById("f2v");
+    var f3 = document.getElementById("f3v");
+
+    function pageZero(){
+      pHeading.innerHTML = "Smart phones";
+      pDesc.innerHTML = descZero;
+
+      one.style.backgroundImage = 'url(imgs/gadgets/phones/100101.png)';
+      two.style.backgroundImage = 'url(imgs/gadgets/phones/100102.png)';
+      three.style.backgroundImage = 'url(imgs/gadgets/phones/100103.png)';
+
+      price1.innerHTML = "Now at $899.00";
+      price2.innerHTML = "Now at $78.00";
+      price3.innerHTML  = "Now at $389.00";
+
+      title1.innerHTML = "Apple iphone 11 pro";
+      title2.innerHTML = "Samsung J5 prime";
+      title3.innerHTML = "Samsung A20";
+
+      f1.value = "url(imgs/gadgets/phones/100101.png)";
+      f2.value = "url(imgs/gadgets/phones/100102.png)";
+      f3.value = "url(imgs/gadgets/phones/100103.png)";
+    }
+
+    function pageOne(){
+      pHeading.innerHTML = "Laptops";
+      pDesc.innerHTML = descOne;
+
+      one.style.backgroundImage = 'url(imgs/gadgets/laptops/101001.jpg)';
+      two.style.backgroundImage = 'url(imgs/gadgets/laptops/101002.png)';
+      three.style.backgroundImage = 'url(imgs/gadgets/laptops/101003.png)';
+
+      price1.innerHTML = "Now at $450.00";
+      price2.innerHTML = "Now at $785.00";
+      price3.innerHTML  = "Now at $1,234.00";
+
+      title1.innerHTML = "Accer Aspire S7";
+      title2.innerHTML = "Hp 302 pavilion";
+      title3.innerHTML = "Lenovo Yoga 2 pro";
+
+      f1.value = "url(imgs/gadgets/laptops/101001.jpg)";
+      f2.value = "url(imgs/gadgets/laptops/101002.png)";
+      f3.value = "url(imgs/gadgets/laptops/101003.png)";
+    }
+
+    function pageTwo(){
+      pHeading.innerHTML = "Other accesories";
+      pDesc.innerHTML = descTwo;
+
+      one.style.backgroundImage = 'url(imgs/gadgets/watches/110101.jpg)';
+      two.style.backgroundImage = 'url(imgs/gadgets/watches/110102.png)';
+      three.style.backgroundImage = 'url(imgs/gadgets/watches/110103.png)';
+
+      price1.innerHTML = "Now at $580.00";
+      price2.innerHTML = "Now at $59.00";
+      price3.innerHTML  = "Now at $64.00";
+
+      title1.innerHTML = "Series 4e watch";
+      title2.innerHTML = "Quartz s556 watch";
+      title3.innerHTML = "Infinity G-Shock watch";
+
+      f1.value = "url(imgs/gadgets/watches/110101.jpg)";
+      f2.value = "url(imgs/gadgets/watches/110102.png)";
+      f3.value = "url(imgs/gadgets/watches/110103.png)";
+    }
+    //sticky header
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>

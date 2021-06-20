@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="allCss.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    :root{
+      --dis: block;
+    }
+    html, body{
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <p>Hello <br><br> world</p>
+    <p>My <br><br><br> name <br><br><br> is <br><br><br> Gordon Muneka</p>
+    <button onclick="hell0()">Hello me</button>
+    <p>Here <br><br><br> is <br><br><br> the <br><br><br> code <br><br><br> to <br><br><br> test</p>
+
+  </div>
+
+  <div id="fillAd" class="w-full h-full 2xl:px-48" style="background: rgba(0, 0, 0, 0.3);display: var(--dis); position: fixed; top:0px;">
+    <div style="position: absolute; width: 100%; text-align: center; top: 50%">
+      <button onclick="hello()" class="text-sm xl:text-xl text-gray-100 my-24 font-semibold px-8 py-2 rounded-md mt-4 bg-orange-600">Learn more</button> 
+    </div>
+  </div>
+
+  <script>
+    function hello(){
+      document.querySelector('#fillAd').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
